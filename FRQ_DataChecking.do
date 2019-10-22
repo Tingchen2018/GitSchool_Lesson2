@@ -532,6 +532,8 @@ gen IUD=0 if FRS_result==1
 gen injectables3=0 if FRS_result==1
 gen injectables1=0 if FRS_result==1
 gen injectables=0 if FRS_result==1
+gen injectables_im=0 if FRS_result==1
+gen injectables_sc=0 if FRS_result==1
 gen implant=0 if FRS_result==1
 gen pill=0 if FRS_result==1
 gen malecondom=0 if FRS_result==1
