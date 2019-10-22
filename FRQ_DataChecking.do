@@ -558,6 +558,8 @@ replace IUD=1 if current_method_temp`y'== "IUD" & FRS_result==1
 replace injectables3=1  if current_method_temp`y'== "injectables_3mo" & FRS_result==1
 replace injectables1=1  if current_method_temp`y'== "injectables_1mo" & FRS_result==1
 replace injectables=1 if current_method_temp`y'=="injectables" & FRS_result==1
+replace injectables=1 if current_method_temp`y'=="injectables_im" & FRS_result==1
+replace injectables=1 if current_method_temp`y'=="injectables_sc" & FRS_result==1
 replace implant=1 if current_method_temp`y'=="implants" & FRS_result==1
 replace pill=1 if current_method_temp`y'=="pill" & FRS_result==1
 replace malecondom=1 if current_method_temp`y'=="male_condoms" & FRS_result==1
